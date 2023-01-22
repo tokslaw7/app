@@ -1,11 +1,23 @@
 .fullscreen-image {
-    max-width: 100%;
-    max-height: 100%;
-    bottom: 0;
-    left: 0;
-    margin: auto;
-    overflow: auto;
-    position: fixed;
-    right: 0;
-    top: 0;
+    height: 100%;
+    width: 100%;
+    color:rgb(215, 109, 123);
+    background-image: url(../../assets/images/home_banner.png);
+    background-size: cover;
   }
+
+  .onboard_back{
+    height: 100%;
+    width: 100%;
+    color:rgb(215, 109, 123);
+    background-image: url(../../assets/images/home_banner.png);
+    background-size: cover;
+    .onboard_card{
+        position: relative;
+        top:50%;
+        // bottom:50%;
+        .onboard_sec1{
+          background-color: rgb(186, 129, 244);
+        }
+    }
+}
